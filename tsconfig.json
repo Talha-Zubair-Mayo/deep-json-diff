@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",          // You can set this to es5 if you need broader browser support
+    "module": "commonjs",
+    "lib": ["es2015"],        // Including ES2015 as the library
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}

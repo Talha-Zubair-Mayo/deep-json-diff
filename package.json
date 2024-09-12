@@ -1,0 +1,45 @@
+{
+  "name": "deep-json-diff",
+  "version": "1.0.0",
+  "description": "A utility to perform deep comparison of JSON objects to find differences.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "diff",
+    "deep-compare",
+    "json-comparison",
+    "deep-diff",
+    "json-diff",
+    "object-difference",
+    "compare-json",
+    "json-validate",
+    "deep-equality",
+    "json-structure",
+    "recursive-comparison",
+    "data-compare",
+    "data-diff",
+    "object-compare",
+    "object-deep-diff",
+    "json-depth-diff",
+    "structure-compare",
+    "json-tool",
+    "deep-json-analysis"
+  ],
+  "author": "TaLhA ZuBaIr MaYo <tzm96dev@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
