@@ -1,6 +1,6 @@
 {
-  "name": "deep-json-diff",
-  "version": "1.0.0",
+  "name": "@tzm96dev/deep-json-diff",
+  "version": "1.0.4",
   "description": "A utility to perform deep comparison of JSON objects to find differences.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,6 +8,10 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talha-Zubair-Mayo/deep-json-diff.git"
   },
   "keywords": [
     "json",
