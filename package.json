@@ -1,6 +1,6 @@
 {
   "name": "@tzm96dev/deep-json-diff",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A utility to perform deep comparison of JSON objects to find differences.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
